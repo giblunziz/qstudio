@@ -1,0 +1,12 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>
+      admin project works!
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-card-actions *ngFor="let p of projectList">
+      <div>{{p.name}}</div>
+    </mat-card-actions>
+  </mat-card-content>
+</mat-card>
